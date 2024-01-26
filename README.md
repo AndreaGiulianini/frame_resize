@@ -12,6 +12,6 @@ This tool is particularly useful for scenarios where a batch of images needs to 
 
 ## Command for start project
 
-docker build -t resize-images .
+`docker build -t resize-images .`
 
-docker run -v ./photo:/app/input -v ./photo_output:/app/output resize-images --percentage_increase 20
+`docker run -v ./photo:/app/input -v ./photo_output:/app/output resize-images --percentage_increase 20`
